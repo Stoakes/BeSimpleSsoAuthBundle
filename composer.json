@@ -1,9 +1,9 @@
 {
-    "name": "besimple/sso-auth-bundle",
+    "name": "stoakes/sso-auth-bundle",
     "type": "symfony-bundle",
-    "description": "SSO authentication your Symfony2 project ",
-    "keywords": ["CAS", "SSO", "Symfony2", "authentication"],
-    "homepage": "https://github.com/BeSimple/BeSimpleSsoAuthBundle",
+    "description": "SSO authentication your Symfony2 and Symfony3 projects ",
+    "keywords": ["CAS", "SSO", "Symfony2", "Symfony3", "authentication"],
+    "homepage": "https://github.com/Stoakes/BeSimpleSsoAuthBundle",
     "license": "MIT",
     "authors": [
         {
@@ -18,9 +18,9 @@
     "require": {
         "php": ">=5.3.3",
         "kriswallsmith/buzz": ">=0.7,<1.0-dev",
-        "symfony/framework-bundle": "~2.1",
-        "symfony/twig-bundle": "~2.1",
-        "symfony/security-bundle": "~2.1"
+        "symfony/framework-bundle": "~2.1|~3.0",
+        "symfony/twig-bundle": "~2.1|~3.0",
+        "symfony/security-bundle": "~2.1|~3.0"
     },
     "require-dev": {
         "symfony/browser-kit": "~2.1",
