@@ -20,27 +20,27 @@ class SsoAuthenticationProvider implements AuthenticationProviderInterface
     /**
      * @var UserProviderInterface
      */
-    private $userProvider;
+    protected $userProvider;
 
     /**
      * @var UserCheckerInterface
      */
-    private $userChecker;
+    protected $userChecker;
 
     /**
      * @var bool
      */
-    private $createUsers;
+    protected $createUsers;
 
     /**
      * @var array
      */
-    private $createdUsersRoles;
+    protected $createdUsersRoles;
 
     /**
      * @var bool
      */
-    private $hideUserNotFound;
+    protected $hideUserNotFound;
 
     /**
      * Constructor.
